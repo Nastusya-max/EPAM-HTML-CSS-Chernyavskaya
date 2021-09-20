@@ -46,13 +46,19 @@
   }
 }
 
-@media (max-width: 847px) {
+@media (max-width: 880px) {
   .tags__list div{
     margin-right: 10px;
   }
+
   .tags__list div:nth-child(3){
     margin-right: 50px; 
   }
+
+  .tags__list div:nth-child(5){
+    margin-right: 50px; 
+  }
+
   .archives__container{
     margin-top: 220px;
   }
