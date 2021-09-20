@@ -19,4 +19,6 @@ For inspecting - https://psdetch.com/
 * The website is responsive (not just two breakpoints)
 * Bse SCSS(SASS) with gulp
 * Implemented animation for buttons and posts
+* Markup must is valid, checked here - https://validator.w3.org/
+* BEM naming convention
 
