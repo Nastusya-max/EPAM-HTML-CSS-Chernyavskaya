@@ -29,15 +29,6 @@ img {
 body {
 	overflow-anchor: none;
 	margin: 0;
-	font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -69,6 +60,7 @@ nav {
 
 .material-icons.md-36 { 
   font-size: 36px;
+  margin-top: 10px;
 }
 
 .material-icons {
@@ -86,7 +78,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #60606E;
 }
 
 
@@ -146,8 +137,6 @@ nav {
 }
 
 .blog-post__title{
-  font-size: 18px;
-  color: #60606E;
   margin-top: 14px;
 }
 
@@ -157,11 +146,7 @@ nav {
 }
 
 .blog-post__description {
-  font-family: 'Open Sans', sans-serif;
-  color: #999999;
-  text-transform: initial;
   margin-top: 15px;
-  font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.3px;
 }
@@ -169,7 +154,6 @@ nav {
 .blog-ppost_more {
   display: block;
   margin-top: 27px;
-  color: #60606E;
 }
 
 /* === Newsletter === */
@@ -206,15 +190,10 @@ nav {
 
 .stay-infornation__title {
   font-size: 24px;
-  color: #60606E;
   line-height: 1.4;
 }
 
 .stay-infornation__description {
-  font-family: 'Open Sans', sans-serif;
-  color: #999999;
-  text-transform:initial;
-  font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.3px;
   margin-top: 5px;
@@ -253,7 +232,6 @@ nav {
 }
 
 .search-form__input::placeholder{
-  color: #60606E;
   text-indent: 20px;
   font-size: 12px;
 }
@@ -264,7 +242,6 @@ nav {
 
 .aside__title {
   font-size: 14px;
-  color: #60606E;
 }
 
 .posts-nav {
@@ -455,7 +432,7 @@ nav {
   background-color: #7BEEC7;
   width: 135px;
   height: 50px;
-   position: relative;
+  position: relative;
   overflow: hidden;
   z-index: 1;
 }
