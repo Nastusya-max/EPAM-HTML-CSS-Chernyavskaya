@@ -6,6 +6,10 @@
   .archives__container {
     margin-top: 60px;
   }
+
+  .tags__list div:nth-child(3){
+    margin-right: 5px; 
+  }
 }
 
 @media (max-width: 1160px) {
