@@ -1,0 +1,37 @@
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 14px;
+  color: #60606E;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.header__container {
+  color: #60606E;
+}
+
+.blog-post__title {
+  font-size: 18px;
+  color: #60606E;
+  font-family: "Montserrat";
+  text-transform: initial;
+}
+
+.blog-post__description {
+  font-size: 14px;
+  color: #999999;
+  font-family: "Open Sans", sans-serif;
+  text-transform: initial;
+}
+
+.stay-infornation__description {
+  font-size: 16px;
+  color: #999999;
+  font-family: "Open Sans", sans-serif;
+  text-transform: initial;
+}

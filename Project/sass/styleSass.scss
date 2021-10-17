@@ -1,0 +1,30 @@
+$font-title: 'Montserrat', sans-serif;
+$font-content: 'Open Sans', sans-serif;
+
+$color-title: #60606E;
+$color-content: #999999;
+
+@mixin contentContainer ($width, $padding){
+  max-width: $width;
+  padding: 0 $padding;
+  margin: 0 auto;
+}
+
+@mixin textFormalize ($size, $color, $textTransform: initial, $font: 'Montserrat'){
+  font-size: $size;
+  color: $color;
+  font-family: $font;
+  text-transform: $textTransform;
+}
+
+.container {@include contentContainer (1170px, 15px)};
+
+body {@include textFormalize (14px, $color-title, uppercase, $font-title)};
+
+.header__container {color: $color-title};
+
+.blog-post__title {@include textFormalize (18px, $color-title)};
+
+.blog-post__description {@include textFormalize (14px, $color-content, initial, $font-content)};
+
+.stay-infornation__description {@include textFormalize (16px, #999999, initial, $font-content)};
