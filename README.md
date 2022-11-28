@@ -1,3 +1,4 @@
+https://nastusya-max.github.io/HTML-CSS-Chernyavskaya/
 Requirements:
 * crossbrowser layout (chrome, ie11, edge, firefox - latest versions)
 *	markup should not be pixel perfect, but it must be most similar to PSD (font-size, colors, margins, etc. Use free fonts and icons). Extension for chrome - https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en
